@@ -1,8 +1,7 @@
 function [dist] = Dist_metric(Var,Group)
 
 
-%A function to quantify the pointwise distance of each sample in all
-%variables from the mean (i.e. the signal) of each group/condition.
+%A function to quantify the pointwise distance of each sample from the mean (i.e. the signal) of each group/condition.
 
 %Input: 
     % Var is a single variable consisting of samples from different
